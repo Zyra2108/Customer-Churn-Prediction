@@ -35,7 +35,7 @@ def run_pipeline(csv_path):
     print("\n--- Model Evaluation ---\n")
     print(classification_report(y_test, preds))
 def main():
-    path = input("Enter CSV file path: ")
+    path = input("D:\archive\WA_Fn-UseC_-Telco-Customer-Churn.csv")
     run_pipeline(path)
 if __name__ == "__main__":
     main()
